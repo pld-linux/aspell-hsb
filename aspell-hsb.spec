@@ -1,5 +1,5 @@
 Summary:	Upper Sorbian dictionary for aspell
-Summary(pl):	S≥ownik gÛrno≥uøycki dla aspella
+Summary(pl.UTF-8):   S≈Çownik g√≥rno≈Çu≈ºycki dla aspella
 Name:		aspell-hsb
 Version:	0.01
 %define	subv	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Upper Sorbian dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S≥ownik gÛrno≥uøycki (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+S≈Çownik g√≥rno≈Çu≈ºycki (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n aspell6-hsb-%{version}-%{subv}
