@@ -1,5 +1,5 @@
 Summary:	Upper Sorbian dictionary for aspell
-Summary(pl.UTF-8):   Słownik górnołużycki dla aspella
+Summary(pl.UTF-8):	Słownik górnołużycki dla aspella
 Name:		aspell-hsb
 Version:	0.01
 %define	subv	1
