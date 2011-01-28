@@ -11,6 +11,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/hsb/aspell6-hsb-%{version}-%{subv}.t
 # Source0-md5:	f018c68a688600aeb9cb53747021703a
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60
+BuildRequires:	which
 Requires:	aspell >= 3:0.60
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
