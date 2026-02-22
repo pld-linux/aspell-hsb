@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Słownik górnołużycki dla aspella
 Name:		aspell-hsb
 Version:	0.02
 %define	subv	0
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
