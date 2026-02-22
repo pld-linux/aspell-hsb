@@ -13,6 +13,7 @@ URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60
 BuildRequires:	which
 Requires:	aspell >= 3:0.60
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -42,6 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README
-%{_libdir}/aspell/hsb.*
+%{_prefix}/lib/aspell/hsb.*
 %{_datadir}/aspell/hsb.dat
 %{_datadir}/aspell/hsb_affix.dat
